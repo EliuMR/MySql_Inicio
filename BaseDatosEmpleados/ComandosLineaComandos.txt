@@ -1,0 +1,20 @@
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin> #Ejecutables para llamar con sql en ventana comandos
+
+##Importar una base de datos con la consola
+#Este comando importa en consola una base de datos en un esquema de base de datos de un script *sql
+#Crear el esquema de base de datos en work bench primeramente
+mysql -u root -p "Esquema base datos" < "ruta.sql"
+#Una vez cargado ya aparecerá en work bench
+
+##Exportar una base de datos desde la consola
+#Este comando exporta en consola una base de datos en un esquema de base de datos de un script *sql
+mysqldump -u root -p "Esquema base datos" > "ruta.sql"
+
+##Exportar una tabla de una base de datos
+mysqldump -h "Ip" -u root -p "Esquema base datos" "Tabla" > "ruta.sql"
+mysqldump -h localhost -u root -p dbemployees employees > C:\Users\elium\Documents\SQL\employees.sql
+
+##Importar una tabla a una base de datos
+mysql -h "Ip" -u root -p "Esquema base datos" < "ruta.sql"
+mysql -h localhost -u root -p bdpendientes2 < C:\Users\elium\Documents\SQL\BaseDatosEmpleados\employees.sql
