@@ -1,5 +1,5 @@
 -- Importando datos a las tablas
--- load data infile 'C:\\Users\\elium\\Documents\\SQL\\BaseDatosPendientes\\archivos\\1.- Tabla EstatusPendiente'
+-- Para cargar los archivos debe realizarse con la que no tenga keys foraneas hasta las que tenga mas detalle
 load data infile 'C:\\Users\\elium\\Documents\\SQL\\BaseDatosPendientes\\archivos\\1.-TablaEstatusPendiente.csv'
 into table estatusPendiente
 fields terminated by ','
