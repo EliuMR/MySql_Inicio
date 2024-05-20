@@ -1,4 +1,4 @@
-id,nombre,password,idPersona
+﻿id,nombre,pasword,idPersona
 1,JUANADMIN,admin321,1
 2,MANUEL,madmin,2
 3,JESUS,jesus321,3
