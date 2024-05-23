@@ -5,7 +5,7 @@ BaseDatosEmpleados ---> Contiene una base de datos grande
 
 BaseDatosPendientes---> Base de datos para Crear una base con workbench mysql
 
-MySQLScripts---> Script para código SQL
+Ejercicios---> Script para código SQL
 		Ejercicios de tipos de datos
 		|---> /TipoDatos
 		Ejercicios de DDl
