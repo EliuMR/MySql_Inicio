@@ -8,10 +8,12 @@ BaseDatosPendientes---> Base de datos para Crear una base con workbench mysql
 Ejercicios---> Script para ejercicion con MYSQL
 		Ejercicios de tipos de datos
 		|---> /TipoDatos
-		Ejercicios de DDl
+		Ejercicios de DDl -  lenguaje de definición de datos
 		|---> /DDL 
-		Ejercicios DML
+		Ejercicios de DML -  lenguaje de manipulación de datos	
 		|---> /DML
+		Ejercicios de DCL -  lenguaje de control de datos
+		|---> /DCL
 		Ejercicios con Funciones agregado
 		|---> /Funciones
 		Sub-busquedas		
