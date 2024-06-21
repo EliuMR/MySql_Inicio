@@ -1,4 +1,4 @@
--- Los cursores en MySQL son utilizados para iterar a través de un conjunto de resultados fila por fila. Son especialmente útiles en procedimientos almacenados cuando necesitas procesar resultados uno a uno. Aquí tienes una guía básica sobre cómo usar cursores en MySQL.
+-- Los cursores en MySQL son utilizados para iterar a través de un conjunto de resultados fila por fila. Son especialmente útiles en procedimientos almacenados cuando necesitas procesar resultados uno a uno. 
 
 use bdPendiente;
 
@@ -19,7 +19,7 @@ begin
     
     -- declarando un manejador de rerrores para cuando el cursor no encuentre m´pas
     declare continue handler for not found -- manejador para cuando no haya más renglones
-											-- Los cursores en MySQL son utilizados para iterar a través de un conjunto de resultados fila por fila. Son especialmente útiles en procedimientos almacenados cuando necesitas procesar resultados uno a uno. Aquí tienes una guía básica sobre cómo usar cursores en MySQL.
+											-- Los cursores en MySQL son utilizados para iterar a través de un conjunto de resultados fila por fila. Son especialmente útiles en procedimientos almacenados cuando necesitas procesar resultados uno a uno. 
     set row_not_found = true;
     
     -- abrir el cursor
